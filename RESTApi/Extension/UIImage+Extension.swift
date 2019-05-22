@@ -1,6 +1,7 @@
 import UIKit
 
 extension UIImage {
+    
     func circularImage(_ radius: CGFloat) -> UIImage? {
         var imageView = UIImageView()
         if self.size.width > self.size.height {
@@ -23,4 +24,5 @@ extension UIImage {
         
         return roundedImage
     }
+    
 }
